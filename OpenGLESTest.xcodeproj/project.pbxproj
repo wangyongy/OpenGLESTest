@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF2476332193DD340037F19A /* GLShowImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2476322193DD340037F19A /* GLShowImageView.m */; };
 		CF24763721941B960037F19A /* wy_colorSelect.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24763621941B960037F19A /* wy_colorSelect.png */; };
-		CF24763921941F860037F19A /* for_test.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24763821941F860037F19A /* for_test.png */; };
+		CF24763B2194373B0037F19A /* GLShowImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF24763A2194373B0037F19A /* GLShowImageView.m */; };
 		CFD35C662192CCDA00F7A6AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD35C652192CCDA00F7A6AC /* AppDelegate.m */; };
 		CFD35C692192CCDA00F7A6AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD35C682192CCDA00F7A6AC /* ViewController.m */; };
 		CFD35C6C2192CCDA00F7A6AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD35C6A2192CCDA00F7A6AC /* Main.storyboard */; };
@@ -41,9 +40,8 @@
 
 /* Begin PBXFileReference section */
 		CF2476312193DD340037F19A /* GLShowImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLShowImageView.h; sourceTree = "<group>"; };
-		CF2476322193DD340037F19A /* GLShowImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLShowImageView.m; sourceTree = "<group>"; };
 		CF24763621941B960037F19A /* wy_colorSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wy_colorSelect.png; sourceTree = "<group>"; };
-		CF24763821941F860037F19A /* for_test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = for_test.png; sourceTree = "<group>"; };
+		CF24763A2194373B0037F19A /* GLShowImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLShowImageView.m; sourceTree = "<group>"; };
 		CFD35C612192CCDA00F7A6AC /* OpenGLESTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLESTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD35C642192CCDA00F7A6AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CFD35C652192CCDA00F7A6AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -123,9 +121,8 @@
 				CFD35C9B2192D25A00F7A6AC /* LearnView.h */,
 				CFD35C9C2192D25B00F7A6AC /* LearnView.m */,
 				CF2476312193DD340037F19A /* GLShowImageView.h */,
-				CF2476322193DD340037F19A /* GLShowImageView.m */,
+				CF24763A2194373B0037F19A /* GLShowImageView.m */,
 				CF24763621941B960037F19A /* wy_colorSelect.png */,
-				CF24763821941F860037F19A /* for_test.png */,
 				CFD35C6A2192CCDA00F7A6AC /* Main.storyboard */,
 				CFD35C6D2192CCDB00F7A6AC /* Assets.xcassets */,
 				CFD35C6F2192CCDB00F7A6AC /* LaunchScreen.storyboard */,
@@ -257,7 +254,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFD35C712192CCDB00F7A6AC /* LaunchScreen.storyboard in Resources */,
-				CF24763921941F860037F19A /* for_test.png in Resources */,
 				CFD35C6E2192CCDB00F7A6AC /* Assets.xcassets in Resources */,
 				CF24763721941B960037F19A /* wy_colorSelect.png in Resources */,
 				CFD35C6C2192CCDA00F7A6AC /* Main.storyboard in Resources */,
@@ -285,7 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF2476332193DD340037F19A /* GLShowImageView.m in Sources */,
+				CF24763B2194373B0037F19A /* GLShowImageView.m in Sources */,
 				CFD35C692192CCDA00F7A6AC /* ViewController.m in Sources */,
 				CFD35C982192CF8F00F7A6AC /* DrawingViewController.m in Sources */,
 				CFD35C742192CCDB00F7A6AC /* main.m in Sources */,

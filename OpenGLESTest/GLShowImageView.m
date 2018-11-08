@@ -164,7 +164,7 @@ gl_FragColor = texture2D(colorMap, varyTextCoord);\
     
     glEnableVertexAttribArray(textCoor);
     //加载纹理
-    if (![self setupTexture:[UIImage imageNamed:@"for_test.png"].CGImage]) {
+    if (![self setupTexture:[UIImage imageNamed:@"wy_colorSelect"].CGImage]) {
         
         return;
     }
